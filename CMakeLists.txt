@@ -16,5 +16,7 @@ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core REQUIRED)
 
 add_executable(ChkdiskFileScanner-qt6
   main.cpp
+  settings.h
+  settings.cpp
 )
 target_link_libraries(ChkdiskFileScanner-qt6 Qt${QT_VERSION_MAJOR}::Core)
